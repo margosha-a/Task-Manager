@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Team Management</h1>
+        <div class="team-management">
+            
+            <input type="text" id="addTeam" placeholder="Додати команду/члена команди">
+            <button onclick="addTeamMember()">Додати команду</button>
+        </div>
+        <h1>Task Manager</h1>
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Додати нове завдання">
+            <button onclick="addTask()">Додати завдання</button>
+        </div>
+        <div id="taskList"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

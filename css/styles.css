@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #097799;
+    margin: 0;
+    padding: 0;
+    height: auto; 
+}
+
+.container {
+    max-width: 600px;
+    border-radius: 12px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 6px solid #330505; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.task-input button {
+    width: 15%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.task-input button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.task {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px; 
+    margin-bottom: 5px; 
+    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+.task .task-name {
+    padding: 5px 0; 
+}
+
+.task button,
+.task select,
+.task input[type="text"],
+.task input[type="date"] {
+    margin-top: 7px; 
+    border-radius: 6px;
+    
+    
+}
+
+.task .comments-list {
+    padding-left: 20px; 
+}
+
+
+.task button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.task button:hover {
+    background-color: #c82333;
+}
+
+.team-management{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+
+.team-management input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    
+}
+
+.team-management button {
+    width: 15%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.team-management button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
